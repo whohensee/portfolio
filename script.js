@@ -1,1 +1,1 @@
-document.querySelector(".testtxt").textContent = "Welcome From JavaScript";
+// document.querySelector(".testtxt").textContent = "Welcome From JavaScript";
