@@ -1,0 +1,50 @@
+.heading,
+.textblock {
+    max-width: 1000px;
+}
+
+.banner {
+    width: 100%;
+    /* object-fit: cover; */
+    position: relative;
+}
+
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+    opacity: 0.2;
+}
+
+.banner h1 {
+    position: absolute;
+    font-size: 78px;
+    font-weight: 900;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    
+}
+
+.heading {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.heading > p {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.textblock > p {
+    font-size: 20px;
+    line-height: 38px;
+    margin-top: 1rem;
+}
+
+.textblock li {
+    font-size: 20px;
+    line-height: 38px;
+    list-style-position: inside;
+}
